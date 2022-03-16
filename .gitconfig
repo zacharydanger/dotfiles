@@ -25,12 +25,16 @@
 [core]
 	editor       = vim
 	whitespace   = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore
 	pager        = less -FXRS -x2
 
 [user]
 	name = Zachary Danger Campbell
-	email = zacharydangercampbell@gmail.com
+	email = zacharydanger@fastmail.com
+
+[fetch]
+  all = true
+  prune = true
 
 [push]
 	default = current
@@ -44,7 +48,7 @@
 
 [github]
 	user  = zacharydanger
-	token = 991538a8bcfe605a85e9da9a8afd0c8ddc440954
+  email = zacharydanger@fastmail.com
 
 [apply]
 	whitespace = nowarn

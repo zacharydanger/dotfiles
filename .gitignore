@@ -8,6 +8,11 @@ bash_history
 # OSX specific files
 *.swp
 .DS_Store
+Brewfile.lock.json
+
+# Vim files
+*.swp
+*.swo
 
 # Project specific files
 /tmp/
@@ -20,3 +25,8 @@ codeintel
 
 # Ruby specific files
 gemrc
+
+# some bullshit
+*xcuserdata*
+*xcshareddata*
+tags
