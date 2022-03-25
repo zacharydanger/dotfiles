@@ -1,73 +1,73 @@
 [color]
-	branch      = auto
-	diff        = auto
-	status      = auto
-	ui          = auto
-	interactive = auto
+  branch      = auto
+  diff        = auto
+  status      = auto
+  ui          = auto
+  interactive = auto
 
 [color "branch"]
-	current = yellow reverse
-	local   = yellow
-	remote  = green
+  current = yellow reverse
+  local   = yellow
+  remote  = green
 
 [color "diff"]
-	meta       = yellow bold
-	frag       = magenta bold
-	old        = red bold
-	new        = green bold
-	whitespace = white reverse
+  meta       = yellow bold
+  frag       = magenta bold
+  old        = red bold
+  new        = green bold
+  whitespace = white reverse
 
 [color "status"]
-	added     = yellow
-	changed   = green
-	untracked = cyan
+  added     = yellow
+  changed   = green
+  untracked = cyan
 
 [core]
-	editor       = vim
-	whitespace   = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	excludesfile = ~/.gitignore
-	pager        = less -FXRS -x2
+  editor       = vim
+  whitespace   = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  excludesfile = ~/.gitignore
+  pager        = less -FXRS -x2
 
 [user]
-	name = Zachary Danger Campbell
-	email = zacharydanger@fastmail.com
+  name = Zachary Danger Campbell
+  email = zacharydanger@fastmail.com
 
 [fetch]
   all = true
   prune = true
 
 [push]
-	default = current
+  default = current
 
 [rerere]
-	enabled = true
+  enabled = true
 
 [instaweb]
   local = true
   httpd = webrick
 
 [github]
-	user  = zacharydanger
+  user  = zacharydanger
   email = zacharydanger@fastmail.com
 
 [apply]
-	whitespace = nowarn
+  whitespace = nowarn
 
 [branch]
-	autosetupmerge = true
+  autosetupmerge = true
 
 [rebase]
-	autosquash = true
+  autosquash = true
 
 [filter "media"]
-	clean  = git-media-clean %f
-	smudge = git-media-smudge %f
+  clean  = git-media-clean %f
+  smudge = git-media-smudge %f
 
 [filter "lfs"]
-	clean    = git-lfs clean -- %f
-	smudge   = git-lfs smudge -- %f
-	required = true
-	process  = git-lfs filter-process
+  clean    = git-lfs clean -- %f
+  smudge   = git-lfs smudge -- %f
+  required = true
+  process  = git-lfs filter-process
 
 [alias]
   fap  = fetch --all --prune
@@ -75,8 +75,8 @@
   fuss = fetch upstream staging:staging
   brm  = branch --merged
   brrm = branch --remotes --merged
-	recent = branch --sort=-committerdate --format=\"%(committerdate:relative)\t\t\t\t\t%(refname:short)\"
+  recent = branch --sort=-committerdate --format=\"%(committerdate:relative)\t\t\t\t\t%(refname:short)\"
 [pull]
-	rebase = false
+  rebase = false
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
