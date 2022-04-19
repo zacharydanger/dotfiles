@@ -9,6 +9,9 @@ brew "mas" # mac app store cli
 # some junk i reach for every now and then
 brew "wget"
 
+# magic wormhole fucking rules
+brew "magic-wormhole"
+
 cask "dropbox"
 cask "firefox"
 cask "rectangle"
