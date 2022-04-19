@@ -12,6 +12,10 @@ brew "wget"
 # magic wormhole fucking rules
 brew "magic-wormhole"
 
+# some tools for findin'
+brew "fzf"
+brew "ripgrep"
+
 cask "dropbox"
 cask "firefox"
 cask "rectangle"
