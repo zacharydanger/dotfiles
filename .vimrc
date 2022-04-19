@@ -27,6 +27,7 @@ call plug#begin()
 
 " Fuzzy Finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Easy alignment for like Ruby hashes
 Plug 'junegunn/vim-easy-align'
