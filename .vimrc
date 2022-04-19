@@ -167,7 +167,8 @@ set splitright
 set splitbelow
 
 " ctrl+T open fuzzy file finder
-map <C-T> :FZF<CR>
+map <C-T> :Files<CR>
+noremap <Leader>g :Rg<CR>
 
 " Luke's macro for changing Ruby hashrockets to modern hash syntax
 noremap <Leader>r :s/:\(\w\+\)\(\s*\)=>\s*/\1:\2/g<Cr>
