@@ -150,8 +150,6 @@ au BufRead,BufNewFile *.coffee set smarttab
 
 au BufRead,BufNewFile *.inky set filetype=erb
 
-au BufRead,BufNewFile 1kb-cron set filetype=crontab
-
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
