@@ -22,14 +22,15 @@ cask "rectangle"
 cask "textexpander"
 cask "visual-studio-code"
 
-mas "1Password 7",    id: 1333542190
-mas "Airmail",        id: 918858936
-mas "Amphetamine",    id: 937984704
-mas "CARROT Weather", id: 993487541
-mas "Deliveries",     id: 290986013
-mas "Fantastical",    id: 975937182
-mas "Pixelmator Pro", id: 1289583905
-mas "Soulver 3",      id: 1508732804
-mas "Speedtest",      id: 1153157709
-mas "Things",         id: 904280696
-mas "Xcode",          id: 497799835
+mas "1Password 7",                 id: 1333542190
+mas "Airmail",                     id: 918858936
+mas "Amphetamine",                 id: 937984704
+mas "CARROT Weather",              id: 993487541
+mas "Deliveries",                  id: 290986013
+mas "Fantastical",                 id: 975937182
+mas "Marked 2 - Markdown Preview", id: 890031187
+mas "Pixelmator Pro",              id: 1289583905
+mas "Soulver 3",                   id: 1508732804
+mas "Speedtest",                   id: 1153157709
+mas "Things",                      id: 904280696
+mas "Xcode",                       id: 497799835
