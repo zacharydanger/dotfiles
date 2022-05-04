@@ -81,3 +81,5 @@
 
 [includeIf "gitdir:~/customink/"]
   path = ~/.gitconfig_customink
+[init]
+	defaultBranch = main
