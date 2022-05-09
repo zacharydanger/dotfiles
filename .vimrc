@@ -41,6 +41,9 @@ Plug 'tpope/vim-rails'
 " Ruby help
 Plug 'vim-ruby/vim-ruby'
 
+" Rainbow CSV -- column color coordination
+Plug 'mechatroner/rainbow_csv'
+
 " Auto close brackets, etc
 " Plug 'tmsvg/pear-tree'
 
