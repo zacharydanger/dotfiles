@@ -154,6 +154,10 @@ au BufRead,BufNewFile *.coffee set smarttab
 
 au BufRead,BufNewFile *.inky set filetype=erb
 
+au BufRead,BufNewFile *.ts set sw=4
+au BufRead,BufNewFile *.ts set sts=4
+au BufRead,BufNewFile *.ts set smarttab
+
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
@@ -175,3 +179,6 @@ noremap <Leader>g :Rg<CR>
 
 " Luke's macro for changing Ruby hashrockets to modern hash syntax
 noremap <Leader>r :s/:\(\w\+\)\(\s*\)=>\s*/\1:\2/g<Cr>
+
+" fix syntax probz re: typescript
+set re=0
