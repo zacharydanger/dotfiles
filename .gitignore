@@ -13,6 +13,7 @@ Brewfile.lock.json
 # Vim files
 *.swp
 *.swo
+*.swn
 
 # Project specific files
 /tmp/
