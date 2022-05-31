@@ -44,6 +44,9 @@ Plug 'vim-ruby/vim-ruby'
 " Rainbow CSV -- column color coordination
 Plug 'mechatroner/rainbow_csv'
 
+" Rename files in place
+Plug 'danro/rename.vim'
+
 " Auto close brackets, etc
 " Plug 'tmsvg/pear-tree'
 
