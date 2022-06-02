@@ -83,3 +83,5 @@
   path = ~/.gitconfig_customink
 [init]
 	defaultBranch = main
+[diff]
+  wsErrorHighlight = all
