@@ -47,6 +47,9 @@ Plug 'mechatroner/rainbow_csv'
 " Rename files in place
 Plug 'danro/rename.vim'
 
+" Respect .editorconfig files (editorconfig.org)
+Plug 'editorconfig/editorconfig-vim'
+
 " Auto close brackets, etc
 " Plug 'tmsvg/pear-tree'
 
