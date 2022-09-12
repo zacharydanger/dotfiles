@@ -1,8 +1,8 @@
 [push]
   default = simple
 
-[credential]
-  helper = osxkeychain
+[includeIf "gitdir:/Users"]
+  path = ~/.gitconfig_macos
 
 [core]
   editor       = vim
