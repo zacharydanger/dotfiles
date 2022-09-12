@@ -23,6 +23,7 @@ Brewfile.lock.json
 .idea
 .tmproj
 codeintel
+.vscode
 
 # Ruby specific files
 gemrc
