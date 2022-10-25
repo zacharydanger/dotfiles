@@ -51,7 +51,7 @@ Plug 'danro/rename.vim'
 Plug 'editorconfig/editorconfig-vim'
 
 " VSCode-like autocomplete (for typescript o_0) — https://github.com/neoclide/coc.nvim
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Auto close brackets, etc
 " Plug 'tmsvg/pear-tree'
