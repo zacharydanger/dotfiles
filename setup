@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+def log(message)
+  puts "[ dotfiles/install ] #{message}"
+end
+
+def system!(*args)
+  log "Executing '#{args}'"
+  if system(*args)
+    log "#{args} succeeded"
+  else
+    log "#{args} failed"
+    abort
+  end
+end
+
+def setup
+  # link dotfiles to home dir
+  dot_files = Dir.new(Dir.pwd).children.select { |f| f =~ /^\./ }.reject { |f| f =~ /\.swp$/ }
+
+  dot_files.each do |file|
+    source_file = File.join(Dir.pwd, file)
+    dest_file   = File.join(Dir.home, file)
+
+    system! "unlink #{dest_file} || true"
+    system! "ln -sf #{source_file} #{dest_file}"
+  end
+
+  # install vim plugins
+  system! 'vim -c "PlugInstall | qa!"'
+
+  # party.
+  log "DOTFILES INSTALLED"
+  log "🎉"
+end
+
+setup
