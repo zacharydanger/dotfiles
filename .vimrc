@@ -233,6 +233,8 @@ else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
+set fixendofline
+
 " let g:coc_global_extensions = ['coc-tserver']
 
 " END COC
