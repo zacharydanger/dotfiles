@@ -16,7 +16,7 @@ end
 
 def setup
   # link dotfiles to home dir
-  dot_files = Dir.children(Dir.pwd).select { |f| f =~ /^\./ }.reject { |f| f =~ /\.swp$/ }
+  dot_files = Dir.children(Dir.pwd).select { |f| f =~ /^\./ }.reject { |f| f =~ /\.swp$/ || f == '.git' }
 
   dot_files.each do |file|
     source_file = File.join(Dir.pwd, file)
