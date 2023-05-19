@@ -68,6 +68,9 @@ Plug 'preservim/nerdcommenter'
 
 Plug 'nathanaelkane/vim-indent-guides'
 
+" AI!
+Plug 'github/copilot.vim'
+
 call plug#end()
 
 " packadd! indentLint
