@@ -71,6 +71,7 @@
 
 [alias]
   fap  = fetch --all --prune
+  fom  = fetch origin master:master
   fum  = fetch upstream master:master
   fuss = fetch upstream staging:staging
   brm  = branch --merged
