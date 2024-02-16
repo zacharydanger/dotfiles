@@ -83,10 +83,6 @@
 [pull]
   rebase = true
 
-[includeIf "gitdir:~/customink/"]
-  path = ~/.gitconfig_customink
-[includeIf "gitdir:/app/"]
-  path = ~/.gitconfig_customink
 [init]
 	defaultBranch = main
 [diff]
