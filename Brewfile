@@ -22,7 +22,6 @@ cask "rectangle"
 cask "textexpander"
 cask "visual-studio-code"
 
-mas "1Password 7",    id: 1333542190
 mas "Airmail",        id: 918858936
 mas "Amphetamine",    id: 937984704
 mas "CARROT Weather", id: 993487541
