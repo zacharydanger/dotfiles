@@ -16,6 +16,11 @@ brew "magic-wormhole"
 brew "fzf"
 brew "ripgrep"
 
+brew "imagemagick"
+brew "nmap"
+brew "rbenv"
+brew "nodenv"
+
 cask "dropbox"
 cask "firefox"
 cask "rectangle"
